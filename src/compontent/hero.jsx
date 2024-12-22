@@ -6,7 +6,7 @@ const Herosec = () =>{
 <h1>Hello Namaskar🙏</h1>
 <h1>I am Ayush</h1>
         <p>
-         I am learning Frontend developer and UI/UX Design 
+         I am learning Frontend development and UI/UX Design 
          <br />and A true cricket fan and Webdeveloper.
         </p>
         <div className="button-social">
