@@ -25,7 +25,7 @@ const Navbar = () => {
       
         <li><a href="#home">Home</a></li>
         <li><a href="#aboutme">About</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="https://www.behance.net/ayushpathak17" target="_blank">Projects</a></li>
         <li><a href="#contactme">Contact</a></li>
       </ul>
 

@@ -185,6 +185,12 @@
   .btn-download {
     font-size: 14px;
   }
+  .social-media h1{
+    margin-left: -60px;
+  }
+  .social-media{
+    margin-left: 70px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -208,6 +214,9 @@
   .btn-download {
     font-size: 12px;
     padding: 8px 16px;
+  }
+  .phone{
+    margin-left: -77px;
   }
 }
 

@@ -23,15 +23,25 @@ function ContactForm() {
           <p>9812458932</p>
 
           </div>
-          
 
           <div className="social-icons">
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-twitter"></i>
+          
+          <a href="  https://www.facebook.com/Aayushpathak.comAayush" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-facebook"> </i>
+            </a>
+
+            <a href="https://x.com/PathakAaayush" target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-twitter"> </i>
+            </a>
+
+            <a href="https://www.instagram.com/ayushpathak.hya/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-instagram"></i>
+            </a>
+            <a href="   https://www.linkedin.com/in/ayush---pathak/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i>
+            </a>
           </div>
-          <a href="/cv.pdf" download className="btn-download">Download CV</a>
+          <a href="/public/CV.pdf" download className="btn-download">Download CV</a>
         
 </div>
         {/* Right Card: Contact Form */}

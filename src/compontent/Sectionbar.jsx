@@ -19,7 +19,7 @@ const SectionBarmain = () =>{
             <p>See My Work</p>
           </div>
         </a>
-        <a href="https://behance.net" className="social-card" target="_blank" rel="noreferrer">
+        <a href="https://www.behance.net/ayushpathak17" className="social-card" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faBehance} className="icon" />
           <div className="text">
             <h4>Behance</h4>
@@ -27,7 +27,7 @@ const SectionBarmain = () =>{
           </div>
         </a>
         
-        <a href="https://linkedin.com" className="social-card" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/ayush---pathak/" className="social-card" target="_blank" rel="noreferrer">
           <FontAwesomeIcon icon={faLinkedin} className="icon" />
           <div className="text">
             <h4>LinkedIn</h4>
