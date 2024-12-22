@@ -1,0 +1,91 @@
+.abouttext {
+  padding: 20px;
+  text-align: center; /* Center-align text for smaller screens */
+}
+
+.section-titleabout {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+}
+
+.section-titleabout::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background-color: #F73A3A;
+  margin: 10px auto 0;
+}
+
+.about-me {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  margin-top: 40px;
+}
+
+.about-meimg img {
+  width: 100%;
+  max-width: 450px; /* Maintain max width for larger screens */
+  height: 500px;
+
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for a polished look */
+}
+
+.text-content {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #b4b4b4;
+  line-height: 1.6;
+  text-align: justify; /* Better readability */
+}
+
+
+@media(max-width:1000px){
+  .about-me{
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  .about-me {
+      flex-direction: column; /* Stack image and text vertically */
+      text-align: center; /* Center-align text content */
+  }
+
+  .about-meimg img {
+      max-width: 80%; /* Reduce image size for tablets */
+      margin: 0 auto; /* Center-align image */
+  }
+
+  .text-content {
+      padding: 0 20px; /* Add padding for better spacing */
+      text-align: center;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 480px) {
+  .section-titleabout {
+      font-size: 1.5rem; /* Smaller font size for titles */
+  }
+
+  .section-titleabout::after {
+      width: 80px; /* Reduce width of the underline */
+  }
+
+  .about-meimg img {
+      max-width: 100%; /* Full width on small screens */
+  }
+
+  .text-content {
+      font-size: 0.9rem; /* Smaller font for better fit */
+      line-height: 1.4;
+  }
+}
